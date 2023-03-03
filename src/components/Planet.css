@@ -1,0 +1,21 @@
+.destination{
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid;
+    padding: 20px;
+    margin:10px;
+    border-radius: 10px;
+}
+
+select{
+    padding:6px;
+}
+
+.vehicle__select{
+    margin-top: 10px;
+}
+
+.dest__select__label{
+    font-weight: 600;
+    margin-bottom: 5px;
+}

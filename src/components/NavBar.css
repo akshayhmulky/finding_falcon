@@ -1,0 +1,39 @@
+.navbar__header{
+    display: flex;
+    /* background-color: aqua; */
+    height: 50px;
+}
+
+.navbar__section{
+    width: 100%;
+    background-color: rgb(224, 183, 252);
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    align-items: center;
+}
+
+.app__title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar__header ul{
+  display: flex;
+}
+
+.navbar__header li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.reset__btn{
+    padding:8px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+    color:#fff;
+    font-weight: 600;
+    cursor: pointer;
+}
